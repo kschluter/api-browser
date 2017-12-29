@@ -7,8 +7,8 @@
             <data-tables :data='tableData' :actions-def='getActionsDef()' :action-col-def="actionColDef" :checkbox-filter-def='getCheckFilterDef()'>
                 <el-table-column prop="API" label="API" sortable="custom"></el-table-column>
                 <el-table-column prop="Category" label="Category" sortable="custom"></el-table-column>
-                <el-table-column prop="Auth" label="Auth" sortable="custom"></el-table-column>
                 <el-table-column prop="Description" label="Description" sortable="custom"></el-table-column>
+                <el-table-column prop="Auth" label="Auth" sortable="custom"></el-table-column>
                 <el-table-column prop="HTTPS" label="HTTPS" sortable="custom"></el-table-column>
             </data-tables>
         </el-main>
